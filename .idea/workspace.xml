@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2882ea00-a7e6-4406-85ac-dc4036d27110" name="Changes" comment="Bot - add &#10;geolocation" />
+    <list default="true" id="2882ea00-a7e6-4406-85ac-dc4036d27110" name="Changes" comment="Bot - add &#10;geolocation button back">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724179722644</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bot - add &#10;geolocation button back">
+      <option name="closed" value="true" />
+      <created>1724265618429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724265618429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +106,7 @@
     <MESSAGE value="Start - new bot" />
     <MESSAGE value="Bot - update button and add date" />
     <MESSAGE value="Bot - add &#10;geolocation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bot - add &#10;geolocation" />
+    <MESSAGE value="Bot - add &#10;geolocation button back" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bot - add &#10;geolocation button back" />
   </component>
 </project>

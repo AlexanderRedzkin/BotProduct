@@ -107,7 +107,16 @@ def get_text_messages(message):
         markup.add(button1, button2, button3, button4, button5)
         bot.send_message(message.chat.id, '⬅️Назад', reply_markup=markup)
 
-    #WIP - button inline
+
+    elif message.text == 'Отдых':
+        inline_keyboard = telebot.types.InlineKeyboardMarkup();
+        youtube_button = telebot.types.InlineKeyboardButton(text='🦄YouTube', url='https://www.youtube.com/')
+        instagram_button = telebot.types.InlineKeyboardButton(text='📸Instagram', url='https://www.instagram.com')
+        hdrezka_button = telebot.types.InlineKeyboardButton(text='🖥️HDrezka', url='https://hdrezka.co')
+        inline_keyboard.add(youtube_button, instagram_button, hdrezka_button)
+        bot.send_message(message.from_user.id, "Можешь отдохнуть и позалипать в телефончик🦊",
+                         reply_markup=inline_keyboard)
+
 
 if __name__ == "__main__":
     bot.infinity_polling()
