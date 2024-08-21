@@ -33,9 +33,9 @@ def get_text_messages(message):
                          'тут будет информация о местоположении'.format(message.from_user))
         markup = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
         location_button = telebot.types.KeyboardButton(text="⛳️Текущее местоположение", request_location=True)
-        markup.add(location_button)
+        back = telebot.types.KeyboardButton('⬅️Назад')
+        markup.add(location_button, back)
         bot.send_message(message.from_user.id, 'Показать где ты находишься?', reply_markup=markup)
-    #WIP - button back
 
     # Всплывающая кнопка-меню
     elif message.text == '📚Другая информация':
